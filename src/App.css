@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: aliceblue;
 }
 
 .App-logo {
@@ -21,6 +22,41 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.form{
+  width: 50vw;
+  height: 60vh;
+  margin: 100px auto;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(197, 98, 98));
+  box-shadow: 0 0 10px rgb(22, 20, 20);
+  border-radius: 10px;
+}
+.main{
+  display:grid;
+  grid-template-columns: repeat(2,auto);
+  text-align: left;
+  margin: 100px auto;
+ 
+}
+
+.main input{
+  margin-top: 10px;
+  
+}
+.main label{
+  margin-top: 10px;
+}
+#submit{
+  text-align: center;
+  font-size: 20px;
+  padding: 2px;
+  background-color: rgb(111, 111, 192);
+  
 }
 
 @keyframes App-logo-spin {
