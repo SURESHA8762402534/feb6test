@@ -40,7 +40,7 @@
   display:grid;
   grid-template-columns: repeat(2,auto);
   text-align: left;
-  margin: 100px auto;
+  margin: 100px 0 0 0;
  
 }
 
@@ -56,7 +56,15 @@
   font-size: 20px;
   padding: 2px;
   background-color: rgb(111, 111, 192);
-  
+  margin-top: 20px;
+}
+.text{
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  color: blue;
+  margin-left: 10px;
+  margin-top: 30px;
 }
 
 @keyframes App-logo-spin {
